@@ -33,7 +33,7 @@ collections:
       permalink: /notes/:title
 
 disqus:
-  shortname: benjaminakera
+  shortname: ak3ra-github-io
 
 defaults:
   - scope:
