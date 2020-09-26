@@ -622,8 +622,8 @@ hr {
     width: 100%;
     height: 40px;
     border: 0px;
-    /* font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important; */
-    font-family: 'Libre Baskerville', serif;
+    font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+    /* font-family: 'Libre Baskerville', serif; */
 
     color: #555;
     font-size: 18px;
@@ -634,8 +634,8 @@ hr {
 ::placeholder {
     color: #999;
     font-size: 18px;
-    /* font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important; */
-    font-family: 'Libre Baskerville', serif !important;
+    font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+    /* font-family: 'Libre Baskerville', serif !important; */
 
 }
 .searchbar i {
