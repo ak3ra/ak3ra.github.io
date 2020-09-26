@@ -60,18 +60,23 @@ main {
 
 h1 {
     font-size: 29px;
+
+    
 }
 
 h2 {
     font-size: 25px;
+
 }
 
 h3 {
     font-size: 22px;
+
 }
 
 h4 {
     font-size: 19px;
+
 }
 
 h5 {
@@ -87,6 +92,8 @@ h1, h2, h3, h4, h5, h6 {
     /* font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
     font-family: 'Libre Baskerville', serif;
     font-weight: 600;
+    color: #8B0000;
+
 }  
 
 a, p, ul, li, ol, table, span, blockquote {
