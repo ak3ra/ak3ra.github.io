@@ -1,12 +1,12 @@
-title: Simply Jekyll
-name: John Doe
-user_description: Programmer (Interested in Philosophy and Math)
+title: Benjamin Akera
+name:  Benjamin Akera
+user_description: Machine Learning Research
 notes_url: "https://simply-jekyll.netlify.app"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
-copyright_name: John Doe
+copyright_name: Benjamin Akera
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "ak3ra.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
@@ -33,7 +33,7 @@ collections:
       permalink: /notes/:title
 
 disqus:
-  shortname: raghuveerdotnet
+  shortname: benjaminakera
 
 defaults:
   - scope:

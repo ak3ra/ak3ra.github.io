@@ -90,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a, p, ul, li, ol, table, span, blockquote {
     color: #555555;
-    font-family:  'IBM Plex Sans', Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    /* font-family:  'IBM Plex Sans', Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
     font-size: 16px;  /* Let's set the font-size to something old-man friendly */
 }
 
@@ -723,14 +724,14 @@ hr {
     font-weight: 600;
 }
 
-.feed-excerpt{
+/* .feed-excerpt{
     color: #555555;
     margin-top: -12px;
     margin-left: 20px !important;
     margin-right: 30px;
     font-family:  'IBM Plex Sans', Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-size: 15px;
-}
+} */
 
 .tags {
     list-style: none;
@@ -1422,4 +1423,29 @@ label.margin-toggle:not(.sidenote-number) {
 #disqus_thread {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* #################AKERA CUSTOMIZATIONS############### */
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+.feed-title{
+    font-family: 'EB Garamond', serif;
+    font-size: 29px;
+    color: #8B0000;
+    
+}
+
+
+.feed-excerpt{
+    color: #000000;
+    margin-top: -12px;
+    margin-left: 20px !important;
+    margin-right: 30px;
+    /* font-family:  'IBM Plex Sans', Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
 }
