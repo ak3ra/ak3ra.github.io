@@ -9,9 +9,11 @@
             <p style="margin-top: 0px;" class="feed-title">{{ item.title }}</p>
             {%- else -%}
             <p class="feed-title">{{ item.title }}</p>
+            <p class="feed-date"  style="font-style: italic;text-decoration: underline;">{{item.date |  date: '%B-%d-%Y' }}</p>
             {%- endif -%}
             <p class="feed-excerpt">{{ item.content | strip_html | strip | escape | truncate: 200}}</p>
             </a>
+        <hr>
         </div>
     {%- endfor -%}
 {%- endif -%}
