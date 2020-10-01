@@ -509,3 +509,10 @@ background-color: #f4f4f4;
 
 
 }
+
+.feed-date{
+  margin-block-start: -20px;
+  font-size: small;
+  color: #0B6623;
+
+}
