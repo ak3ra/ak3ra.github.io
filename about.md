@@ -17,3 +17,23 @@ Proudly made in 🇺🇬
 
 <hr>
 
+### Talks
+
+
+| Name                   |                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------ |
+| `_layouts`             | Replace all. Apply edits if you customized any layouts.                        |
+| `_includes`            | Replace all. Apply edits if you customized any includes.                       |
+| `assets`               | Replace all. Apply edits if you customized stylesheets or scripts.             |
+| `_sass`                | Replace all. Apply edits if you customized Sass partials.                      |
+| `_data/navigation.yml` | Safe to keep. Verify that there were no major structural changes or additions. |
+| `_data/text.yml`       | Safe to keep. Verify that there were no major structural changes or additions. |
+| `_config.yml`          | Safe to keep. Verify that there were no major structural changes or additions. |
+
+
+
+### Papers
+
+1. 
+
+
