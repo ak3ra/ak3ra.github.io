@@ -3,7 +3,7 @@ title: The Figtree
 ---
 
 
-Many times we find ourselves stuck in situations where the path ahead is full of potential directions and choices beyond which we are not sure what to take. It's Like going into an ice-cream store and seeing all the flavors and being lost for choice.
+Many times we find ourselves stuck in situations where the path ahead is full of potential directions and choices beyond which we are not sure what to make. It's Like going into an ice-cream store and seeing all the flavors and being lost for choice.
 
 I found this excerpt by Sylvia Plath very relatable, from her book "The Bell Jar"
 
