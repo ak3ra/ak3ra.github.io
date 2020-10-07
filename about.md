@@ -19,8 +19,8 @@ Proudly made in 🇺🇬
 
 ### Talks
 
-
-| Name                   |                                                                                |
+<em> - to be added </em>
+<!-- | Name                   |                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------ |
 | `_layouts`             | Replace all. Apply edits if you customized any layouts.                        |
 | `_includes`            | Replace all. Apply edits if you customized any includes.                       |
@@ -28,12 +28,12 @@ Proudly made in 🇺🇬
 | `_sass`                | Replace all. Apply edits if you customized Sass partials.                      |
 | `_data/navigation.yml` | Safe to keep. Verify that there were no major structural changes or additions. |
 | `_data/text.yml`       | Safe to keep. Verify that there were no major structural changes or additions. |
-| `_config.yml`          | Safe to keep. Verify that there were no major structural changes or additions. |
+| `_config.yml`          | Safe to keep. Verify that there were no major structural changes or additions. | -->
 
 
 
 ### Papers
 
-1. 
+<em> - Some of them are on my Google scholar page </em>
 
 

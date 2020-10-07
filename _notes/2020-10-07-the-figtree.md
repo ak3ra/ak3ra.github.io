@@ -1,5 +1,6 @@
 ---
 title: The Figtree
+tags: life
 ---
 
 
