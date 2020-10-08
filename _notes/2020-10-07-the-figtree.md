@@ -12,7 +12,7 @@ I found this excerpt by Sylvia Plath very relatable, from her book "The Bell Jar
 
 You're reading this because you made some choices, a few minutes ago, a decision was made, and multiple before that led you to read these exact words. And you could choose to stop here or continue reading along. These little choices we make (both actively and passively) are the ever spreading branches of the fig tree. It's innevitable to make these choices, and most times we don't have control of the outcomes of our decisions. Although the decisions of our present are the architects of our future, despite the uncertainy involved, it would be inadequate to sit at the base of our fig trees and watch all options wrinkle and shrink. 
 
-Although, I must admit some decisions are not as easy as choosing a flavor of ice-cream :D 
+Although, I must admit choosing an ice-cream flavor is such a complicated task :D  
 
 #### References
 
