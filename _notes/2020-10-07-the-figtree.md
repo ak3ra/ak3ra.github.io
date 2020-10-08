@@ -17,3 +17,6 @@ Although, I must admit some decisions are not as easy as choosing a flavor of ic
 #### References
 
 Sylvia Plath - [The Bell Jar](https://en.wikipedia.org/wiki/The_Bell_Jar)
+
+<hr>
+<p style="float:right;color:#8B0000"><em>Wed, Oct 7<sup>th</sup>, 2020</em></p>
