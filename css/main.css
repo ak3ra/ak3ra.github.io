@@ -85,14 +85,16 @@ a:visited { color: #205caa; }
 .wrap:after { clear: both; }
 
 .wrap {
-  margin: 0 auto;
   max-width: 800px;
-  padding: 30px 100px 30px 100px;
-  box-shadow: 0 0 2px 0 #ddd;
-  background-color: #fffff8;
-  border: 1.2px solid #C6C6C6;
-  border-radius: 2px;
+  padding: 0 30px;
+  margin: 0 auto;
   zoom: 1;
+/*  padding: 30px 100px 30px 100px;*/
+  /*box-shadow: 0 0 2px 0 #ddd;*/
+  /*background-color: #fffff8;*/
+  /*border: 1.2px solid #C6C6C6;*/
+  /*border-radius: 2px;*/
+  /*zoom: 1;*/
 
 }
 
@@ -109,17 +111,17 @@ a:visited { color: #205caa; }
   background-color: white;
 }
 
-.site-header .wrap{
+/*.site-header .wrap{
   max-width: 800px;
   padding: 10px 100px 10px 100px;
-    /*padding: 30px 100px 30px 100px;*/
+    padding: 30px 100px 30px 100px;
   margin: 0 auto;
   zoom: 1;
   box-shadow: none;
   border: None;
   border-radius: None;
 
-}
+}*/
 
 .site-title,
 .site-title:hover,
