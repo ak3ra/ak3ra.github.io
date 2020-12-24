@@ -1,163 +1,40 @@
-{%- if page.content-type == "notes" or page.permalink == "/notes" -%}
-<header>
-    <div class="notes-page-subheader disable-select">
-        <div class="notes-page-site-heading">
-            <p><a href="/index.html">{{site.title}}</a></p>
-        </div>
-        
-        <div class="notes-page-main-heading">
-            <!-- <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p> -->
-            <p class="notes-page-tagline"><b>>Notes</b>: A place for raw thoughts and unformed ideas. To be or not to be <a href="/">blogposts</a></p>
-        </div>
+<header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:11px; margin-right:10px;">
+    <img src="/assets/oak.png" width="50px">
     </div>
-    <div class="searchbar search-container">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <label for="search-input"></label>
-        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Notes..."/>
-        <ul id="results-container"></ul>
+
+    <div style="float:left; margin-top:4px; margin-right:10px;">
+      <a class="site-title" style="padding-top:0px; padding-bottom:0px;" href="{{ site.baseurl }}/ ">{{ site.title }}</a>
+      <p style="padding-bottom:6px; font-size:15px;font-weight: 300;">{{ site.description }}</p>
     </div>
-    <script src="/assets/js/simple-jekyll-search.min.js"></script>
-    <script>
-        function changeResultContainerDisp(val) {
-            if (val) {
-                document.getElementById("results-container").style.display = "block";
-                document.getElementById("search-input").addEventListener('blur', function() {
-                    document.addEventListener('click', function(event) {
-                        var isClickInside = document.getElementById("results-container").contains(event.target);
-                        if (!isClickInside) {
-                            document.getElementById("results-container").style.display = "none";
-                        }
-                    })
-                }) 
-            }  else {
-                document.getElementById("results-container").style.display = "none";
-            }
-        }
-        var sjs = SimpleJekyllSearch({
-                    searchInput: document.getElementById('search-input'),
-                    resultsContainer: document.getElementById('results-container'),
-                    json: '/search_notes.json',
-                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
-                    noResultsText: 'No results found',
-                    fuzzy: false,
-                    limit: 4
-                    })   
-    </script>
-    {%- if page.permalink == "/notes" -%}
-    <div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
-       
-        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #000000;">
-            <li style="float: right; color: azure; "><div class="rss"><a style="text-decoration: underline; color: azure; font-weight: bold;" href="/feed.xml">RSS</a></div></li>
-            <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/notes">Notes</a></div></li>
-            <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/tags">Tags</a></div></li>
-            <li style="float: right; color: azure;"> <div class="home"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/about">WhoAmI</a></div></li>
-        
-        </ul>
-        <p class="back-p" style="text-decoration: underline;">Home</p>
-    </div>
-    {%- else -%}
-    <div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/notes');">
-        <div class="back-icon">
-            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
-            </svg>
-        </div>
 
-
-        <div class="main-site-subheader menu disable-select">
-
-            <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #000000;">
-                <li style="float: right; color: azure; "><div class="rss"><a style="text-decoration: underline; color: azure; font-weight: bold;" href="/feed.xml">RSS</a></div></li>
-                <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/notes">Notes</a></div></li>
-                <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold; " href="/tags">Tags</a></div></li>
-                <li style="float: right; color: azure;"> <div class="home"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/about">WhoAmI</a></div></li>
-            
-            </ul>
-        <br>
-            
-        </div> 
-        <p class="back-p">Notes</p>
-    </div>
-    {%- endif -%}
-</header>
-{%- else -%}
-<header>
-
-
+    <!-- <a class="site-title" style="padding-top:8px; font-size:28px" href="{{ site.baseurl }}/ ">{{ site.title }}</a> -->
     
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
 
-    <div class="dashboard disable-select">
-        <div class="site-heading profile-board-col">
-           <h4 class="medium"><a href="/">{{site.title}}</a></h4>
-        </div>
-        <div class="userboard profile-board-col">
-            
-            <div class="userdesc">
-                <p class="title-sans">{{site.user_description}}</p>
-            </div> 
-            
-        </div>
-    </div>
+      <div class="trigger" style="margin-bottom:0px; padding-top:10px; font-size:13px;font-weight: 300;">
+<!--         <a class="page-link" href="{{ site.baseurl }}/ ">Home</a> -->
+<!--         {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %} -->
+        <a class="page-link" style="margin-bottom: 0px; padding-bottom:0px;" href="../../../../index.html">Home</a>
+        <a class="page-link" style="margin-bottom: 0px; padding-bottom:0px;" href="../../../../about.html">WhoAmI</a>
+      </div>
+    </nav>
+  </div>
 
-    
-    <div class="main-site-subheader menu disable-select">
-
-        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #000000;">
-            <li style="float: right; color: azure; "><div class="rss"><a style="text-decoration: underline; color: azure; font-weight: bold;" href="/feed.xml">RSS</a></div></li>
-            <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/notes">Notes</a></div></li>
-            <li style="float: right; color: azure;"><div class="categories"><a style="text-decoration: underline;color: azure; font-weight: bold; " href="/tags">Tags</a></div></li>
-            <li style="float: right; color: azure;"> <div class="home"><a style="text-decoration: underline;color: azure; font-weight: bold;" href="/about">WhoAmI</a></div></li>
-        
-        </ul>
-    <br>
-        
-    </div> 
-
-
-    <div class="searchbar search-container">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <label for="search-input"></label>
-        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search this site..."/>
-        <ul id="results-container"></ul>
-    </div>
-    <script src="/assets/js/simple-jekyll-search.min.js"></script>
-    <script>
-        function changeResultContainerDisp(val) {
-            if (val) {
-                document.getElementById("results-container").style.display = "block";
-                document.getElementById("search-input").addEventListener('blur', function() {
-                    document.addEventListener('click', function(event) {
-                        var isClickInside = document.getElementById("results-container").contains(event.target);
-                        if (!isClickInside) {
-                            document.getElementById("results-container").style.display = "none";
-                        }
-                    })
-                }) 
-            }  else {
-                document.getElementById("results-container").style.display = "none";
-            }
-        }
-        var sjs = SimpleJekyllSearch({
-                    searchInput: document.getElementById('search-input'),
-                    resultsContainer: document.getElementById('results-container'),
-                    json: '/search.json',
-                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
-                    noResultsText: 'No results found',
-                    fuzzy: false,
-                    limit: 4
-                    })   
-    </script>
-    {%- if page.permalink != "/" -%}
-    <div class="main-site-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
-        <!-- <div class="back-icon">
-            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
-            </svg>
-        </div>
-        <p class="back-p">Home</p>    
-    </div> -->
-    {%- endif -%}
 </header>
-{%- endif -%}

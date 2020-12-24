@@ -1,51 +1,18 @@
-title:  4K3R4
-name:  Akera
-user_description: " - A place for my thoughts on life, the universe and everything"
-notes_url: "https://ak3ra.github.io"
-profile_pic: /assets/img/me.png
-favicon: /assets/img/favicon.png
-copyright_name: Benjamin Akera
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "ak3ra.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-encoding: utf-8
+# Site settings
+title: Benjamin Akera
+email: akeraben@gmail.com
+description: "Sometimes I write here"
+baseurl: ""
+url: "http://ak3ra.github.io"
+twitter_username: BenjaminAkera
+github_username: ak3ra
 
 # Build settings
-theme: null
-plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
-
 markdown: kramdown
+permalink: pretty
 
+highlighter: rouge
 kramdown:
   input: GFM
-  hard_wrap: false
-  math_engine: mathjax
-  smart_quotes: ["apos", "apos", "quot", "quot"]
+  auto_ids: true
   syntax_highlighter: rouge
-
-sass:
-  style: compressed
-
-collections:
-    notes:
-      output: true
-      permalink: /notes/:title
-
-disqus:
-  shortname: ak3ra-github-io
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      permalink: /posts/:title
-      content-type: post
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: post
-      content-type: notes

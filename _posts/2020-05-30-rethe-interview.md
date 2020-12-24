@@ -1,8 +1,9 @@
 ---
 title: An Interview With Benjamin Akera
-tags: interview 
 comments: false
-published: false
+layout: post
+thumbnail: assets/placeholder.png
+
 ---
 
 originally published at [Rethe.org](https://www.rethe.org/blog/an-interview-with-benjamin-akera)
@@ -36,7 +37,8 @@ I usually seek help from colleagues and mentors. However, most times, literature
 
 #### What is the one advice you would give to someone working on a paper for the first time?
 
-I would advise them to take it slow and realize that scientific writing is just another way to communicate your findings and ideas to the world and to future generations. So all they have to do is start. To quote Maya Angelou: <i>“There is no greater agony than bearing an untold story inside you.”</i>  
+I would advise them to take it slow and realize that scientific writing is just another way to communicate your findings and ideas to the world and to future generations. So all they have to do is start. To quote Maya Angelou: 
+>“There is no greater agony than bearing an untold story inside you.” <br> --- Maya Angelou
 
 Thank you for sharing your experience with Rethé. I look forward to reading your papers. 
 

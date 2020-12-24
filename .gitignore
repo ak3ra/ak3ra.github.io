@@ -1,5 +1,13 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# My blog | 2020
+# Benjamin Akera
+
+.DS_Store
+*.egg-info
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*/.jekyll-cache/*
+.pytest_cache
+*.tar
+*.zip
+# *.pkl # allow pickle files
+__pycache__
