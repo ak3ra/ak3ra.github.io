@@ -496,7 +496,8 @@ span.colab-span {
 @media screen and (max-width: 600px) {
 
   body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: 'Libre Baskerville', serif;
+  /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
   /*font-family: "Georgia", sans-serif;*/
   color: #232323;
   font-size: 16.5px;
