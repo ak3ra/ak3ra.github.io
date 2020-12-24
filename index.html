@@ -17,10 +17,9 @@ layout: default
         </div>
         <div id="summary" style="display:inline-block;width:80%;">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
-            <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-
+            <p class="post-date" style="padding-top: 0px; font-size: 12px">{{ post.date | date: "%b %-d, %Y" }}</p>
         <br>
-        <div style="font-weight: 300;">
+        <div style="font-weight: 300; color:#4d5156; font-size: 13px">
           {{ post.excerpt }}
 
         </div>
